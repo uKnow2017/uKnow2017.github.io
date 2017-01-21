@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>下载uKnow</title>
+  <link rel="shortcut icon" href="logo.png">
+  <style type="text/css"> 
+    .body_bg {
+      width: 100%;
+      height: 100%;
+      background-image: url(bg.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-attachment: fixed;
+    }
+
+    img {
+      width: 16%;
+      height: 10%;
+      position: absolute;
+      top: 61%;
+      left: 42%;
+      cursor: pointer;
+    }
+
+  </style>
+  <script type="text/javascript">
+    function download() {
+      window.location = "uKnow.apk"
+    }
+  </script>
+</head>
+<body class="body_bg">
+  <img src="download.png" draggable="false" onclick="download()" title="下载uKnow">
+</body>
+</html>
